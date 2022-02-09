@@ -22,4 +22,33 @@ public class Client {
         return money;
     }
 
+    public void setMoney(int money) {
+        this.money = money;
+    }
 
+    public List<Brand> getInterestedBrands() {
+        return interestedBrands;
+    }
+
+    public void setInterestedBrands(List<Brand> interestedBrands) {
+        this.interestedBrands = interestedBrands;
+    }
+
+    public int getPurchaseSusceptibility() {
+        return purchaseSusceptibility;
+    }
+
+    public void setPurchaseSusceptibility(int purchaseSusceptibility) {
+        this.purchaseSusceptibility = purchaseSusceptibility;
+    }
+
+    @Override
+    public String toString() {
+        return "Client{" +
+                "isInterestedInTrucks=" + isInterestedInTrucks +
+                ", money=" + money +
+                ", interestedBrands=" + interestedBrands +
+                ", purchaseSusceptibility=" + purchaseSusceptibility +
+                '}';
+    }
+}
