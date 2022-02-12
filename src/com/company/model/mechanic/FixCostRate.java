@@ -26,4 +26,12 @@ public class FixCostRate {
         return cost;
     }
 
-
+    @Override
+    public String toString() {
+        return "FixCostRate{" +
+                "brand=" + brand +
+                ", partName=" + partName +
+                ", cost=" + cost +
+                '}';
+    }
+}
